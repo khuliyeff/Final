@@ -1,0 +1,91 @@
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\ApplicationInsights.config
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\eli mubu.dll.config
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\eli mubu.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\eli mubu.pdb
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Antlr3.Runtime.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Microsoft.AI.Web.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Microsoft.ApplicationInsights.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Newtonsoft.Json.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\System.Web.Helpers.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\System.Web.Mvc.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\System.Web.Optimization.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\System.Web.Razor.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\System.Web.WebPages.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\System.Web.WebPages.Razor.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\WebGrease.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\System.Web.Helpers.xml
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\System.Web.Mvc.xml
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\System.Web.Optimization.xml
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\System.Web.Razor.xml
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\System.Web.WebPages.xml
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\System.Web.WebPages.Razor.xml
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Antlr3.Runtime.pdb
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Newtonsoft.Json.xml
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Microsoft.ApplicationInsights.xml
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\Microsoft.AI.Web.xml
+C:\Users\ACER\source\repos\eli mubu\eli mubu\obj\Debug\eli mubu.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\eli mubu\eli mubu\obj\Debug\eli mubu.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\obj\Debug\eli mubu.pdb
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\EntityFramework.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\EntityFramework.SqlServer.dll
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\EntityFramework.xml
+C:\Users\ACER\source\repos\eli mubu\eli mubu\bin\EntityFramework.SqlServer.xml
+C:\Users\ACER\source\repos\eli mubu\eli mubu\obj\Debug\eli mubu.csprojResolveAssemblyReference.cache
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\ApplicationInsights.config
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\eli mubu.dll.config
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\eli mubu.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\eli mubu.pdb
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Antlr3.Runtime.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\EntityFramework.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\EntityFramework.SqlServer.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Microsoft.AI.Web.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Newtonsoft.Json.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\System.Web.Helpers.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\System.Web.Mvc.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\System.Web.Optimization.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\System.Web.Razor.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\System.Web.WebPages.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\System.Web.WebPages.Razor.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\WebGrease.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\EntityFramework.xml
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\EntityFramework.SqlServer.xml
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\System.Web.Helpers.xml
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\System.Web.Mvc.xml
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\System.Web.Optimization.xml
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\System.Web.Razor.xml
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\System.Web.WebPages.xml
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\System.Web.WebPages.Razor.xml
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Antlr3.Runtime.pdb
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Newtonsoft.Json.xml
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\bin\Microsoft.AI.Web.xml
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\obj\Debug\eli mubu.csproj.CoreCompileInputs.cache
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\obj\Debug\eli mubu.dll
+C:\Users\Toshiba\Desktop\eliiiii mubuuuu\eli mubu\eli mubu\obj\Debug\eli mubu.pdb

@@ -1,0 +1,457 @@
+﻿@model eli_mubu.Models.manage
+@{
+    ViewBag.Title = "Index";
+}
+
+        <!-- content-start -->
+        <div class="main">
+            <div class="container above-fold parallax pr">
+
+                @foreach (var item in Model.Homes)
+    {
+            <div class="wrapper pr">
+                <div class="col-7 md-col-10 above-fold-text">
+                    <img src="~/Public/images/logo-text.png" alt="logo-text" />
+                    <h1 class="small">
+                    @item.Header
+
+                    <br /> beautiful apps
+                </h1>
+                <p>
+    @item.Text
+            </p>
+            <div class="btn-box">
+                <a class="red" href="#download">GET THE APP</a>
+                <a class="blue" href="#work">WATCH VIDEO <span class="icon-ic_play"></span></a>
+            </div>
+            </div>
+            <a href="#about" class="go-down"></a>
+            </div>
+            <div class="fadeScroll">
+                <img src="~/Photo/@item.Photo" alt="hand_bg" class="animated hand_bg wow fadeInLeft" data-wow-delay="1s">
+            </div>
+}
+
+            </div> <!-- above-fold -->
+
+            <div id="about" class="container about-main">
+                <div class="wrapper">
+                 
+                    <div class="title-block">
+                        @foreach (var item in Model.AboutUs)
+    {
+                    <h2>@item.AboutTxt</h2>
+                    <span class="sub-title">@item.MiniTxt</span>
+
+                    <p>@item.Text</p>
+
+}
+                        <i class="sep-line">&nbsp;</i>
+                    </div>
+                  
+                    <div class="row text-center about-box">
+                        @foreach (var item in Model.Icon)
+    {
+                    <div class="col-4 md-col-12">
+                        <span class="@item.Icon"></span>
+                        <h6>@item.Title</h6>
+                        <p>@item.Text</p>
+                    </div>
+}
+                    </div>
+                </div>
+            </div><!-- about-main -->
+
+            <div id="features" class="container features-main parallax">
+                <div class="wrapper">
+                    <div class="title-block">
+                     @foreach (var item in Model.Feature)
+                     {
+                            <h2>@item.Header</h2>
+                        <span class="sub-title">@item.Text</span>
+                        <i class="sep-line">&nbsp;</i>
+                     }
+                    </div>
+                    <div class="features-box text-center">
+                        <div class="features-text text-right wow fadeInLeft" data-wow-delay="0.75s">
+                            <div class="features-info md-col-12">
+                                <span class="icon-ic_design ficon"></span>
+                                <div class="info-text">
+                                    <h6>Creative design</h6>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                                </div>
+                            </div>
+                            <div class="features-info md-col-12">
+                                <span class="icon-ic_customize ficon"></span>
+                                <div class="info-text">
+                                    <h6>Easy to customize</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit est is.</p>
+                                </div>
+                            </div>
+                            <div class="features-info md-col-12">
+                                <span class="icon-ic_speed ficon"></span>
+                                <div class="info-text">
+                                    <h6>Fast speed</h6>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="features-img wow fadeIn"><div class="features-mob">
+    @foreach (var item in Model.Feature)
+    {
+        <img src="~/Public/images/@item.Photo" alt="features-screen">
+    }
+
+</div>
+                        </div>
+                        <div class="features-text text-left wow fadeInRight" data-wow-delay="0.75s">
+                            <div class="features-info md-col-12">
+                                <span class="icon-ic_flat_design ficon"></span>
+                                <div class="info-text">
+                                    <h6>Retina ready</h6>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                                </div>
+                            </div>
+                            <div class="features-info md-col-12">
+                                <span class="icon-ic_use ficon"></span>
+                                <div class="info-text">
+                                    <h6>Easy to use</h6>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit est is.</p>
+                                </div>
+                            </div>
+                            <div class="features-info md-col-12">
+                                <span class="icon-ic_support ficon"></span>
+                                <div class="info-text">
+                                    <h6>24/7 Support</h6>
+                                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- features-main -->
+
+            <div id="work" class="container work-main">
+                <video id="work-video" loop preload src="testvideo.mp4">
+                    <source src="testvideo.mp4" width="100%" type="video/mp4">
+                    <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+                </video>
+                <div class="wrapper">
+                    <h2>how it works</h2>
+                    <span class="icon-ic_play_big wow fadeInUp"></span>
+                </div>
+            </div><!-- work-main -->
+
+            <div id="benefits" class="container benefits-main">
+                <div class="wrapper">
+                  @foreach (var item in Model.Benefits)
+                  {
+                        <div class="col-6 md-col-12 benefits-img wow fadeInLeft">
+                        <img src="~/Photo/@item.Photo" alt="mobile-02">
+                    </div>
+                  }
+                    <div class="col-5 md-col-12 benefits-text">
+
+                        @foreach (var item in Model.Benefits)
+    {
+                    <div class="title-block small">
+                        <h2>@item.Header</h2>
+                        <span class="sub-title">@item.HeaderTxr</span>
+                        <i class="sep-line">&nbsp;</i>
+                        <p>@item.Text</p>
+                    </div>
+}
+
+                        <div class="sub-text md-col-9 sd-col-12">
+                            <span class="icon-ic_shield ficon"> </span>
+                            <div class="mar-l-55">
+                                <h6>Consectetur elit adipiscing</h6>
+                                <p>Ipsum dolor sit amet, consectetur adipiscing elit Integer tincidunt.</p>
+                            </div>
+                            <div class="mar-l-55 icon-text">
+                                <ul>
+                                    <li><span class="icon-ic_bag ficon"></span>Adipiscing elit Integer tincidunt</li>
+                                    <li><span class="icon-ic_hammer ficon"></span>Consectetur adipiscing elit</li>
+                                    <li><span class="icon-ic_laptop ficon"></span>Adipiscing elit integer tincidunt efficitur</li>
+                                    <li><span class="icon-ic_setting ficon"></span>Duis auctor lorem</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div><!-- benefits-main -->
+
+            <div class="container send-block-main parallax">
+                <div class="topClr"></div>
+                <div class="wrapper">
+                    <div class="col-9 ld-col-12 md-col-12 text-left title-block"><h2>Sed lacinia magna sit amet dolor tincidunt pulvinar elem</h2></div>
+                    <div class="col-3 ld-col-12 md-col-12 text-right"><a href="#">Call to Action</a></div>
+                </div>
+            </div><!-- send-block-main -->
+
+            <div class="container client-block-main" id="testimonials">
+                <div class="wrapper">
+                    @foreach (var item in Model.Client)
+    {
+                <div class="title-block">
+                    <h2>@item.Header</h2>
+                    <span class="sub-title">@item.HeadTxt</span>
+                    <i class="sep-line">&nbsp;</i>
+                </div>
+}
+
+                <ul class="client-slider">
+                    @foreach (var item in Model.Client)
+    {
+                <li>
+                    <p>@item.Text</p>
+                    <div class="client-info">
+                        <img src="~/Photo/@item.Photo" alt="client01">
+                        <strong>@item.Phead</strong>
+                        <span>@item.Ptxt</span>
+                    </div>
+                </li>
+                <li>
+                    <p>@item.Text</p>
+                    <div class="client-info">
+                        <img src="~/Photo/@item.Photo" alt="client01">
+                        <strong>@item.Phead</strong>
+                        <span>@item.Ptxt</span>
+                    </div>
+                </li>
+                <li>
+                    <p>@item.Text</p>
+                    <div class="client-info">
+                        <img src="~/Photo/@item.Photo" alt="client01">
+                        <strong>@item.Phead</strong>
+                        <span>@item.Ptxt</span>
+                    </div>
+                </li>
+}
+
+                </ul>
+                </div>
+            </div><!-- client-block-main -->
+
+            <div id="screenshots" class="container screenshot-main">
+                <div class="wrapper">
+                    @foreach (var item in Model.Screenshot)
+    {
+                <div class="title-block">
+                    <h2>@item.Head</h2>
+                    <span class="sub-title">@item.Text</span>
+                    <i class="sep-line">&nbsp;</i>
+                </div>
+}
+                <div class="screen-slider">
+                    @foreach (var item in Model.Screenshot)
+    {
+                <div class="mobile">
+                    <img class="slider-device" src="~/Photo/@item.Background" alt="img">
+                </div>
+}
+                    <div class="awesome-screenshots owl-carousel">
+                        @foreach (var item in Model.sphoto)
+                        {
+                            <div class="item"><img src="~/Photo/@item.Photo" alt="img" /></div>
+                      
+                        }
+                    </div>
+                </div>
+                </div>
+            </div><!-- screenshot-main -->
+
+
+            <div class="container count-block-main" id="achievement">
+                <div class="wrapper">
+                    <div class="row text-center">
+                        @foreach (var item in Model.statistica)
+    {
+                    <div class="col-3 md-col-6">
+                        <span class="@item.Icon"></span>
+                        <span class="count counter">@item.Number</span>
+                        <em>@item.Name</em>
+                    </div>
+                 
+}
+                    </div>
+                </div>
+            </div><!-- count-block-main -->
+
+            <div id="priceing" class="container plan-block-main">
+                <div class="wrapper">
+                    @foreach (var item in Model.Buy)
+    {
+                <div class="title-block">
+                    <h2>@item.Header</h2>
+                    <span class="sub-title">@item.Txt</span>
+                    <i class="sep-line">&nbsp;</i>
+                </div>
+}
+
+                    <div class="text-center">
+                      @foreach (var item in Model.Buyn)
+                      {
+                            <div class="plan-box">
+                            <div class="plan-box-main">
+                                <span class="plan-type">@item.Name</span>
+                                <strong class="plan-price">@item.Price</strong>
+                                <ul>
+                                    <li>@item.Month</li>
+                                    <li>@item.PSD</li>
+                                    <li>@item.HTML</li>
+                                </ul>
+                                <a href="#">buy now</a>
+                            </div>
+
+                        </div>
+                      }
+                    </div>
+
+                </div>
+            </div><!-- coundt-block-main -->
+
+            <div class="container team-block-main parallax" id="our-team">
+                <div class="wrapper">
+                    @foreach (var item in Model.Team)
+    {
+                <div class="title-block">
+                    <h2>@item.Header</h2>
+                    <span class="sub-title">@item.txt</span>
+                    <i class="sep-line">&nbsp;</i>
+                </div>
+}
+                </div>
+
+                <div class="team-slider-main text-center">
+                    <ul class="team-slider">
+                        @foreach (var item in Model.Teama)
+    {
+                    <li>
+                        <div class="team-photo">
+                            <img src="~/Photo/@item.Photo" alt="team01" />
+                            <span class="social-links">
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                            </span>
+                        </div>
+                        <span class="name">@item.Name</span><em class="role">@item.Position</em>
+                    </li>
+}
+
+                        @foreach (var item in Model.Teama)
+    {
+                    <li>
+                        <div class="team-photo">
+                            <img src="~/Photo/@item.Photo" alt="team01" />
+                            <span class="social-links">
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                            </span>
+                        </div>
+                        <span class="name">@item.Name</span><em class="role">@item.Position</em>
+                    </li>
+}
+
+                        @foreach (var item in Model.Teama)
+    {
+                    <li>
+                        <div class="team-photo">
+                            <img src="~/Photo/@item.Photo" alt="team01" />
+                            <span class="social-links">
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                            </span>
+                        </div>
+                        <span class="name">@item.Name</span><em class="role">@item.Position</em>
+                    </li>
+}
+
+                    </ul>
+                </div>
+
+            </div><!-- team-block-main -->
+
+            <div id="download" class="container downlod-block-main parallax">
+                <div class="topClr"></div>
+                <div class="wrapper">
+                    <div class="title-block">
+                        <h2>Download app now</h2>
+                        <span class="sub-title">Select your device platform and get download started</span>
+                        <i class="sep-line">&nbsp;</i>
+                    </div>
+                    <div class="downlod-main">
+                        <div class="downlod-btn ">
+                            <a href="#">
+                                <img src="~/Public/images/svg/ic_itunes.png" alt="ic_itunes" class="no-hover" />
+                            </a>
+                            <a href="#">
+                                <img src="~/Public/images/svg/ic_play_store.png" alt="ic_play_store" class="no-hover" />
+                            </a>
+                            <a href="#">
+                                <img src="~/Public/images/svg/ic_store.png" alt="ic_store" class="no-hover" />
+                            </a>
+                        </div>
+
+                        <div class="title-block">
+                            <h2>Subscribe to our newsletter</h2>
+                        </div>
+
+                        <div class="text-center">
+                            <form class="subscribe-form">
+                                <input class="email" placeholder="Enter your e-mail address..." type="text"><input class="submit-btn" type="submit" name="lastname">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div><!-- downlod-block-main -->
+
+            <div class="container contact-block-main contact-dark">
+                <div class="wrapper">
+                    <div class="title-block">
+                        <h2>Contact us</h2>
+                        <span class="sub-title">Keep in Touch</span>
+                        <i class="sep-line">&nbsp;</i>
+                    </div>
+
+                    <div class="contact-form-main">
+                        <form class="contact-form">
+                            <div class="form-row">
+                                <div class="col-5">
+                                    <input placeholder="Your Name" type="text">
+                                </div>
+                                <div class="col-5">
+                                    <input placeholder="Email Address" type="text">
+                                </div>
+                            </div>
+
+                            <div class="form-row">
+                                <input placeholder="Subject" type="text">
+                            </div>
+
+                            <div class="form-row">
+                                <textarea placeholder="Message..."></textarea>
+                            </div>
+
+                            <div class="form-row no-margin">
+                                <button class="send-btn"> <span class="icon-ic_send_small"></span>Send Message</button>
+                            </div>
+
+                        </form>
+                    </div>
+
+                </div>
+            </div><!-- contact-block-main -->
+
+        </div>
+        <!-- content-end -->
+      
+
